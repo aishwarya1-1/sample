@@ -1,0 +1,159 @@
+dn: cn=admin,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: admin
+userPassword: {crypt}x
+gidNumber: 1000
+
+dn: cn=userone,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: userone
+userPassword: {crypt}x
+gidNumber: 1001
+
+dn: cn=usertwo,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: usertwo
+userPassword: {crypt}x
+gidNumber: 1002
+
+dn: cn=user3,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: user3
+userPassword: {crypt}x
+gidNumber: 1003
+
+dn: cn=user5,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: user5
+userPassword: {crypt}x
+gidNumber: 1004
+
+dn: cn=user6,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: user6
+userPassword: {crypt}x
+gidNumber: 1005
+
+dn: cn=user7,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: user7
+userPassword: {crypt}x
+gidNumber: 1006
+
+dn: cn=user8,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: user8
+userPassword: {crypt}x
+gidNumber: 1007
+
+dn: cn=user9,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: user9
+userPassword: {crypt}x
+gidNumber: 1008
+
+dn: cn=cloud,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: cloud
+userPassword: {crypt}x
+gidNumber: 1009
+memberUid: user10
+memberUid: userone
+
+dn: cn=user10,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: user10
+userPassword: {crypt}x
+gidNumber: 1010
+
+dn: cn=cloud1,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: cloud1
+userPassword: {crypt}x
+gidNumber: 1011
+
+dn: cn=cloud2,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: cloud2
+userPassword: {crypt}x
+gidNumber: 1012
+
+dn: cn=user11,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: user11
+userPassword: {crypt}x
+gidNumber: 1013
+
+dn: cn=user13,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: user13
+userPassword: {crypt}x
+gidNumber: 1015
+
+dn: cn=development,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: development
+userPassword: {crypt}x
+gidNumber: 1016
+memberUid: hadoopadmin
+memberUid: phpadmin
+memberUid: testadmin
+
+dn: cn=php,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: php
+userPassword: {crypt}x
+gidNumber: 1017
+
+dn: cn=hadoop,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: hadoop
+userPassword: {crypt}x
+gidNumber: 1018
+
+dn: cn=testers,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: testers
+userPassword: {crypt}x
+gidNumber: 1019
+
+dn: cn=maven,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: maven
+userPassword: {crypt}x
+gidNumber: 1020
+
+dn: cn=a1,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: a1
+userPassword: {crypt}x
+gidNumber: 1021
+
+dn: cn=shafeeque,ou=Group,dc=micro,dc=local
+objectClass: posixGroup
+objectClass: top
+cn: shafeeque
+userPassword: {crypt}x
+gidNumber: 1022
+

@@ -1,0 +1,20 @@
+dn: dc=micro,dc=local
+objectClass: top
+objectClass: dcObject
+objectclass: organization
+o: micro local
+dc: micro
+
+dn: cn=Manager,dc=micro,dc=local
+objectClass: organizationalRole
+cn: Manager
+description: Directory Manager
+
+dn: ou=People,dc=micro,dc=local
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=micro,dc=local
+objectClass: organizationalUnit
+ou: Group
+
